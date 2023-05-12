@@ -4,6 +4,7 @@ import Layout from './components/Layouts/index';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 const routes = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const routes = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact/>
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio/>
       }
     ]
   },

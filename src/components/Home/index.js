@@ -10,8 +10,8 @@ const Home = () => {
 
     const letterClass= useClass('text-animate');
 
-    const nameArray = ['a', 'v', 'i'];
-    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
+    const nameArray = 'avi'.split('');
+    const jobArray = 'web developer.'.split('');
 
     return (
         <>
